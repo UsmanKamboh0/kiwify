@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.421c8114.css",
+    "main.js": "/static/js/main.fac913f3.js",
+    "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
+    "static/media/settings.png": "/static/media/settings.d2b779c9a3cc3f88f301.png",
+    "static/media/question.png": "/static/media/question.3a0e14bdf104cec6e845.png",
+    "static/media/user.png": "/static/media/user.9c8f5db537267dd989a7.png",
+    "static/media/course.png": "/static/media/course.1c88a33a9c4c944e66ea.png",
+    "static/media/envelope.png": "/static/media/envelope.cb392634839fbe479f91.png",
+    "static/media/footer.png": "/static/media/footer.7e7825c9d02a6f813ed7.png",
+    "static/media/edit.png": "/static/media/edit.0f46e2728eb984e21ce8.png",
+    "static/media/switch1.png": "/static/media/switch1.fbcb4684abdc7ce7b529.png",
+    "index.html": "/index.html",
+    "main.421c8114.css.map": "/static/css/main.421c8114.css.map",
+    "main.fac913f3.js.map": "/static/js/main.fac913f3.js.map",
+    "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.421c8114.css",
+    "static/js/main.fac913f3.js"
+  ]
+}

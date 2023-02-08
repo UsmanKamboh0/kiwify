@@ -1,0 +1,453 @@
+.App {
+     text-align: center;
+}
+ .App-logo {
+     height: 40vmin;
+     pointer-events: none;
+}
+ @media (prefers-reduced-motion: no-preference) {
+     .App-logo {
+         animation: App-logo-spin infinite 20s linear;
+    }
+}
+ .App-header {
+     background-color: #282c34;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+}
+ .App-link {
+     color: #61dafb;
+}
+ @keyframes App-logo-spin {
+     from {
+         transform: rotate(0deg);
+    }
+     to {
+         transform: rotate(360deg);
+    }
+}
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+ :root {
+     --primary-bg: #242526;
+     --secondary-bg: #fff;
+     --primary-text-color: #555;
+     --secondary-text-color: #cecece;
+     --border-radius: 8px;
+     --speed: 500ms;
+}
+ body {
+     margin: 0;
+     font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+    /* background-color: var(--primary-bg);
+     */
+}
+ code {
+     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+ ul {
+     list-style: none;
+}
+ a {
+     text-decoration: none;
+}
+ hr{
+     margin-top: -5px;
+     margin-bottom: 20px;
+     border: 0;
+     border-top: 1px solid #eee;
+}
+ .uperbar {
+    /* background-color: red;
+     */
+    /* <div style={
+        {
+             width: 200, height: 200 
+        }
+    }
+    > */
+     width: 50px;
+     height: 55px;
+     float: right;
+     margin-right: 90px;
+     margin-top: -38px;
+    /* padding-top: 5px;
+     */
+}
+ .imgfluid{
+     width: 40px;
+     border-radius: 100%;
+    /* float: right;
+     */
+     margin-left: 275px;
+     margin-top: -39px;
+}
+ .imgfluids{
+     width: 40px;
+     border-radius: 100%;
+     float: right;
+     margin-top: -10px;
+}
+ .modulename{
+     position: absolute;
+     z-index: 1000;
+     inset: 0px 0px auto auto;
+     transform: translate(0px, 30px);
+     width: 109%;
+     border: none;
+     background-color: red;
+}
+ .menu-trigger img {
+     position: absolute;
+     top: 10px;
+     right: 20px;
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     overflow: hidden;
+     cursor: pointer;
+    /* background-color: #fff;
+     */
+}
+ .topbar {
+     background-color: #2353ff;
+     width: 100%;
+     padding: 10px 30px;
+     display: flex;
+     align-items: center;
+}
+ .text-dm p{
+     margin: 0 0 10px;
+     margin-top: -20px;
+     margin-left: 32px;
+}
+ .seeclasses{
+     background-color: red;
+}
+ .userinfo {
+    /* background-color: red;
+     */
+     font-size: 15px;
+    /* font-family:'Times New Roman', Times, serif;
+     */
+}
+ user{
+     margin-left:400px;
+}
+ .email{
+    /* background-color: red;
+     */
+     font-size: 14px;
+     padding: 5px;
+}
+ h5{
+     margin-left: -450px;
+     margin-left: -121px;
+     color: white;
+}
+ h6 {
+     font-size: 15px;
+     color: var(--primary-text-color);
+     line-height: 1.2rem;
+     color: white;
+     margin-top: -25px;
+}
+ h3 span {
+     font-size: 14px;
+    /* color: var(--secondary-text-color);
+     */
+     font-weight: 400;
+}
+ .moduletitle1 {
+     font-size: 20px;
+     padding-top: -18px;
+     color: #3c64ff;
+     font-weight: 600;
+     height: 53px;
+     background-color: #f2f3f5;
+     border-top: 1px solid #d6dadf ;
+     margin-left: -23px;
+}
+ .assig{
+     position: absolute;
+     right: -199px;
+     top: -38px;
+     z-index: 1;
+     background: #dee5ff;
+    /* color: white;
+     */
+     border: 0px;
+}
+ .toggle{
+     background-color: red;
+    /* display: none;
+     */
+}
+ .seeClassesBtn {
+     position: absolute;
+     right: 0;
+     top: 83px;
+     z-index: 1;
+     background: #2353ff;
+     color: white;
+     border: none;
+     padding: 10px 30px;
+     font-weight: bold;
+     letter-spacing: 1.25px;
+}
+/* * react-circular-progressbar styles * All of the styles in this file are configurable! */
+ .CircularProgressbar {
+    /* * This fixes an issue where the CircularProgressbar svg has * 0 width inside a "display: flex" container, and thus not visible. */
+     width: 100%;
+    /* * This fixes a centering issue with CircularProgressbarWithChildren: * https://github.com/kevinsqi/react-circular-progressbar/issues/94 */
+     vertical-align: middle;
+}
+ .CircularProgressbar .CircularProgressbar-path {
+     stroke: #3e98c7;
+     stroke-linecap: round;
+     -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+     transition: stroke-dashoffset 0.5s ease 0s;
+}
+ .CircularProgressbar .CircularProgressbar-trail {
+     stroke: #d6d6d6;
+    /* Used when trail is not full diameter, i.e. when props.circleRatio is set */
+     stroke-linecap: round;
+}
+ .CircularProgressbar .CircularProgressbar-text {
+     fill: white;
+     font-size: 30px;
+     dominant-baseline: middle;
+     text-anchor: middle;
+}
+ .CircularProgressbar .CircularProgressbar-background {
+     fill: #d6d6d6;
+}
+/* * Sample background styles. Use these with e.g.: * * <CircularProgressbar * className="CircularProgressbar-inverted" * background * percentage={
+    50
+}
+ * /> */
+ .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+     fill: #3e98c7;
+}
+ .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+     fill: #fff;
+}
+ .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+     stroke: #fff;
+}
+ .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+     stroke: transparent;
+}
+/* Right sidebar */
+ * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+ .container {
+     display: flex;
+}
+ main {
+    /* width: 100%;
+     */
+     padding: 20px;
+}
+ .percentage{
+     width: 50px;
+     height: 50;
+     margin-left: 279px;
+}
+ .sidebar {
+     background: white;
+    /* border: 2px solid #d5d9de;
+     */
+     color: black;
+     height: 104%;
+     width: 100%;
+     transition: all 0.5s;
+     transition: all 0.25s ease;
+    /* transform: translateX(40%);
+     */
+     right: 0;
+     position: absolute;
+    /* visibility: hidden;
+     */
+     border-bottom: 0px;
+     border-right: 0px 
+}
+ @media (max-width: 767px) {
+     .hidden-mobile {
+         display: none;
+    }
+}
+ @media (max-width: 767px) {
+     .downscreen {
+         margin-top: -150px;
+    }
+}
+/* .menu {
+     background: #34495e;
+     height: 100vh;
+     width: 250px;
+     opacity:0;
+     position: absolute;
+     visibility: hidden;
+     transition: all 0.25s ease;
+     transform: translateX(50%);
+     right: 0;
+}
+ */
+ .top_section {
+     display: flex;
+     align-items: center;
+     padding: 20px 15px;
+}
+ .logo {
+     font-size: 20px;
+     font-weight: 150px;
+     margin-left: -10px;
+     margin-top: -10px;
+}
+ .bars {
+     display: flex;
+     font-size: 25px;
+     margin-left: 50px;
+}
+/* .row {
+     display: flex;
+}
+ .row > div {
+     flex: 1;
+     background: lightgrey;
+     border: 1px solid grey;
+}
+ */
+ .sidebarborder {
+     background-color: red;
+     z-index: 100px;
+     flex: 1;
+     background: lightgrey;
+     border: 1px solid grey;
+}
+ .forward img {
+     margin-top: -55px !important;
+     margin-left: 900px;
+    /* background-color: red;
+     */
+     height: 60px;
+}
+ .link {
+     display: flex;
+     color: black;
+     background-color: #dee5ff;
+     padding: 10px 15px;
+     gap: 15px;
+     margin-left: 1px;
+     transition: all 0.5s;
+     border: #eaecef solid 2px;
+     border-left: 0px;
+}
+ .link1 {
+     top: 7px;
+    /* margin-right: 0;
+     */
+     color: red;
+     font-size: 10px;
+     width: 329px;
+    /* right: 0px;
+     */
+    /* left: auto;
+     */
+     transform: translate(0px, 16px);
+}
+/* .link:hover{
+     background:lightskyblue;
+     color: #000;
+     transition: all 0.5s;
+}
+ .active{
+     background: lightskyblue;
+     color: #000;
+}
+ */
+ .icon, .link_text {
+     font-size: 20px;
+}
+ .footer {
+    /* background-color: red;
+     */
+     height: 100px;
+     margin-top: 250px;
+}
+ .heading {
+     color: blue;
+     font-size: 20px;
+     padding-left: 20px;
+     padding-top: 5px;
+}
+ .subheading {
+     font-size: 20px;
+     padding-top: 3px;
+     padding-left: 52px;
+     color: black;
+     font-weight: 500;
+}
+ .text-gray-500 {
+     --text-opacity: 1;
+     color: #6b7280;
+     color: rgba(107, 114, 128, var(--text-opacity));
+}
+ .ml-4 {
+     margin-left: 1rem;
+}
+ .text-sm {
+     font-size: 15px;
+     margin-left: -18px;
+     margin-top: 7px;
+}
+ .text-lm {
+     font-size: 15px;
+     margin-left: 112px;
+     margin-top: 7px;
+}
+ .text-hm {
+     font-size: 15px;
+     margin-left: -18px;
+     margin-top: 7px;
+}
+ .text-dm {
+     font-size: 15px;
+     margin-left: -18px;
+     margin-top: -16px;
+}
+ .footertext {
+    /* background-color: red;
+     */
+}
+ .course {
+     margin-left: 1rem;
+     margin-top: -20px;
+     margin-left: 520px;
+}
+ .help {
+     margin-top: -20px;
+     margin-left: 120px;
+}
+ .switch {
+     margin-top: -25px;
+     margin-left: 250px;
+}
+ .switch p {
+     margin-top: -30px;
+     margin-left: 50px;
+}
+ .dropdown-menu1{
+     background-color: pink;
+}
+ 
